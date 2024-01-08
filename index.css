@@ -29,10 +29,6 @@ font-family: 'Merriweather', serif;
 
 }
 
-.img {
-
-    max-width: 100%;
-}
 
 .highlight {
 
@@ -273,33 +269,156 @@ font-family: 'Merriweather', serif;
 
 }
 
-.portfolio-header{
-    width: 50%;
+/* holiday section style */
+
+
+.holiday-header{
+
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+
+    margin-top: 100px;
+}
+.holiday-header h5 {
+    font-family: 'Inter', sans-serif;
+margin: 10px 0;
+
+}
+.holiday-header h1{
+
+
     font-family: 'Merriweather', serif;
-   
+}
+.holiday-header p{
+margin-top: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
-.portfolio-header h4{}
-.portfolio-header h1{
+
+
+
+
+
+
+
+.holiiday-main{
+
+    display: flex;
+justify-content: space-between;
+align-items:end;
+margin-top: 50px;
+
+}
+
+.holiiday-main{
+
+    max-width: 100%;
+}
+
+.holiday-left img{
+
+    height: 400px;
+    max-width: 100%;
+}
+
+.holiday-right{
+
+
+    position: relative;
+}
+.holiday-left img{
+max-width: 100%;
+
+}
+
+.holiday-right img{
+max-width: 100%;
+
+}
+
+.holiday-left{
+
+
+}
+.off {
+    bottom: 214px;
+    position: absolute;
+    /* left: 142px; */
+    right: 208px;
+    /* top: 0; */
+}
+
+
+.holiday-middle{
+
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+/* portfoloio section style */
+
+.portfolio-header {
+    width: 50%;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+
+
+
+.portfolio-header h4 {}
+
+.portfolio-header h1 {
 
     padding: 6px 0;
 }
 
-.protfolio-img{
+.protfolio-img {
 
     display: flex;
 
 }
+.port-img:hover{
 
-.protfolio-img img{
-width: 320px;
-gap: 30px;
+ 
+
+
+}
+
+.port-img:hover {
+    /* border: 19px solid black;
+    border-radius: 31px;
+    box-shadow: 1px 16px 14px 1px;
+    transition: 1s; */
+
+    /* opacity: 0.75; */
+    transition: 2s ease;
+    width: 480px;
+    /* box-shadow:  0px 5px 15px black; */
+    opacity: 1;
+    
+    
+}
+
+.protfolio-img img {
+    width: 320px;
+    gap: 30px;
 
 
 
 }
 
-.portfolio-img-1{
+.portfolio-img-1 {
 
     display: flex;
     gap: 30px;
@@ -308,16 +427,19 @@ gap: 30px;
     align-items: center;
 }
 
-.port-img{
+.port-img {
 
     width: 400px;
-}
-.port-img img{
-
-   max-width: 100%;
+    opacity: .90;
 }
 
-.portfolio-img-2{
+.port-img img {
+
+    max-width: 100%;
+    
+}
+
+.portfolio-img-2 {
 
     display: flex;
     gap: 30px;
@@ -328,9 +450,9 @@ gap: 30px;
 
 
 
-.portfolio-section{
+.portfolio-section {
 
-margin-top: 100px;
+    margin-top: 100px;
 
 }
 
@@ -338,7 +460,7 @@ margin-top: 100px;
 
 /* news latter section */
 
-.news-letter{
+.news-letter {
     background-color: rgba(255, 0, 0, 0.05);
 
     ;
@@ -366,17 +488,19 @@ margin-top: 100px;
 
 input {
     border: none;
- 
+
     margin-top: 25px;
 
 }
+
 .email {
 
-    border-radius:50px 0px 0px 50px;
+    border-radius: 50px 0px 0px 50px;
     padding: 14px 70px;
 }
+
 .submit {
- 
+
     border-radius: 0 50px 50px 0;
     background-color: #f00;
     color: white;
@@ -388,24 +512,24 @@ input {
 /* footer section style */
 
 
-footer{
+footer {
 
     font-family: 'Inter', sans-serif;
-    background-color:  #070211;
+    background-color: #070211;
     margin-top: 100px;
 
 }
 
-.contact{
+.contact {
     display: flex;
-  gap: 30px;
-  justify-content: space-between;
-  padding-top: 120px;
-  color: white;
-  line-height: 2em;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 120px;
+    color: white;
+    line-height: 2em;
 }
 
-.footer-icon{
+.footer-icon {
 
     text-align: center;
     padding: 100px;
@@ -414,31 +538,32 @@ footer{
 
 }
 
-.footer-icon a{
+.footer-icon a {
 
     margin-right: 20px;
 
 }
 
-.footer-icon a  img{
+.footer-icon a img {
 
-width: 50px;
+    width: 50px;
 }
 
-.line{
+.line {
 
 
-border-top: 1px solid rgb(50, 48, 48);
-margin-bottom: 50px;
-}
-.line-2{
-
-
-border-top: 1px solid rgb(50, 48, 48);
-margin-top: 30px;
+    border-top: 1px solid rgb(50, 48, 48);
+    margin-bottom: 50px;
 }
 
-.last-footer{
+.line-2 {
+
+
+    border-top: 1px solid rgb(50, 48, 48);
+    margin-top: 30px;
+}
+
+.last-footer {
 
 
     display: flex;
@@ -446,4 +571,3 @@ margin-top: 30px;
     color: white;
     padding-bottom: 60px;
 }
-
