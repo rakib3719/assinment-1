@@ -391,7 +391,8 @@ input {
 footer{
 
     font-family: 'Inter', sans-serif;
-    background-color:  #070211;;
+    background-color:  #070211;
+    margin-top: 100px;
 
 }
 
@@ -430,9 +431,19 @@ width: 50px;
 border-top: 1px solid rgb(50, 48, 48);
 margin-bottom: 50px;
 }
-.line2{
+.line-2{
 
 
 border-top: 1px solid rgb(50, 48, 48);
 margin-top: 30px;
 }
+
+.last-footer{
+
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 60px;
+}
+
