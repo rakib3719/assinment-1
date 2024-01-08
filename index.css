@@ -275,6 +275,7 @@ font-family: 'Merriweather', serif;
 
 .portfolio-header{
     width: 50%;
+    font-family: 'Merriweather', serif;
    
 }
 
@@ -303,6 +304,8 @@ gap: 30px;
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .port-img{
@@ -319,11 +322,117 @@ gap: 30px;
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 
 .portfolio-section{
 
 margin-top: 100px;
 
+}
+
+
+
+/* news latter section */
+
+.news-letter{
+    background-color: rgba(255, 0, 0, 0.05);
+
+    ;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.news-letter-text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.news-letter-text h1 {
+    padding: 10px 0;
+}
+
+.news-letter-text {
+
+
+    width: 550px;
+    font-family: 'Merriweather', serif;
+}
+
+input {
+    border: none;
+ 
+    margin-top: 25px;
+
+}
+.email {
+
+    border-radius:50px 0px 0px 50px;
+    padding: 14px 70px;
+}
+.submit {
+ 
+    border-radius: 0 50px 50px 0;
+    background-color: #f00;
+    color: white;
+    padding: 14px 50px;
+
+}
+
+
+/* footer section style */
+
+
+footer{
+
+    font-family: 'Inter', sans-serif;
+    background-color:  #070211;;
+
+}
+
+.contact{
+    display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  padding-top: 120px;
+  color: white;
+  line-height: 2em;
+}
+
+.footer-icon{
+
+    text-align: center;
+    padding: 100px;
+
+
+
+}
+
+.footer-icon a{
+
+    margin-right: 20px;
+
+}
+
+.footer-icon a  img{
+
+width: 50px;
+}
+
+.line{
+
+
+border-top: 1px solid rgb(50, 48, 48);
+margin-bottom: 50px;
+}
+.line2{
+
+
+border-top: 1px solid rgb(50, 48, 48);
+margin-top: 30px;
 }
