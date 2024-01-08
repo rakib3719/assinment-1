@@ -41,7 +41,7 @@ font-family: 'Merriweather', serif;
 .banner {
 
     margin-top: 50px;
-    background-image: url("./image/Banner\ Image.png");
+    background-image:linear-gradient(180deg,#070211 0%, rgba(7, 2, 17, 0.00)50%), url("./image/banner.png");
     background-size: contain;
     background-repeat: no-repeat;
     padding: 250px 0;
@@ -53,12 +53,12 @@ font-family: 'Merriweather', serif;
 .banner-text {
     text-align: center;
     font-family: 'Merriweather', serif;
-
+background-color: #07021149;
     color: white;
     width: 480px;
     margin: 0 auto;
 
-    background-color: rgba(0, 0, 0, 0.217);
+
 
 
 
@@ -89,8 +89,9 @@ font-family: 'Merriweather', serif;
 .offer-section {
 
 
-    margin-top: 70px;
+ 
 }
+
 
 .offer-section-main {
 
@@ -130,6 +131,7 @@ font-family: 'Merriweather', serif;
 /* party section style */
 
 
+
 .party-section {
 
     margin-top: 100px;
@@ -137,13 +139,29 @@ font-family: 'Merriweather', serif;
 
 .party-section-main {
 
-    background-image: url("./image/midnight.png");
+    display: flex;
+    justify-content: space-between;
+    background-image:  linear-gradient(90deg,#070211 0%, rgba(7, 2, 17, 0.00)100%),  url("./image/midnight.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding:94px 94px 94px 94px ;
+    align-items: center;
+
 
     border-radius: 0 10px 10px 0;
 
+
+}
+
+.year{
+
+
+    width: 440px;
+    height: 450px;
+}
+.year img {
+
+width: 100%;
 
 }
 
@@ -151,7 +169,7 @@ font-family: 'Merriweather', serif;
 
     color: white;
     font-family: 'Merriweather', serif;
-    max-width: 500px;
+
 
 }
 
@@ -188,6 +206,9 @@ font-family: 'Merriweather', serif;
     background-color: #473d8a;
 
 }
+
+
+/* event dtails */
 
 .event-details-main {}
 
