@@ -46,7 +46,7 @@ font-family: 'Merriweather', serif;
     background-repeat: no-repeat;
     padding: 250px 0;
 
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 10px 10px 0;
 
 }
 
@@ -148,7 +148,7 @@ background-color: #07021149;
     align-items: center;
 
 
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px 10px 10px 10px;
 
 
 }
@@ -180,7 +180,7 @@ width: 100%;
 
     font-size: 48px;
 
-    line-height: 88px;
+    line-height: 70px;
     letter-spacing: 7px;
 
 }
@@ -233,6 +233,7 @@ width: 100%;
 .event-details-text h1 {
 
     line-height: 60px;
+    font-weight: 600;
 }
 
 
@@ -315,7 +316,7 @@ margin: 10px 0;
 }
 .holiday-header h1{
 
-
+font-size: 50px;
     font-family: 'Merriweather', serif;
 }
 .holiday-header p{
@@ -333,9 +334,10 @@ margin-top: 10px;
 .holiiday-main{
 
     display: flex;
-justify-content: space-between;
+justify-content: end;
 align-items:end;
 margin-top: 50px;
+position: relative;
 
 }
 
@@ -354,14 +356,20 @@ margin-top: 50px;
 
 
     position: relative;
+    margin-bottom: -5px;
+   
+  
 }
 .holiday-left img{
 max-width: 100%;
+height: 700px;
 
 }
 
 .holiday-right img{
 max-width: 100%;
+
+
 
 }
 
@@ -381,15 +389,33 @@ max-width: 100%;
 .holiday-middle{
 
     position: absolute;
-    top: 0;
+    bottom: 0;
+    left: 0;
 }
 
 
+.holiday-foter{
 
 
+    background-image: url('./image/r9.png');
+    background-size: cover;
+     height: 300px;
+     border-radius: 0 10px 10px 0;
+   
 
 
+}
 
+.holiday-left{
+ 
+
+   
+}
+.gift {
+    position: absolute;
+    bottom: -231px;
+    left: -28px;
+}
 
 
 /* portfoloio section style */
