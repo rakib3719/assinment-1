@@ -227,3 +227,103 @@ font-family: 'Merriweather', serif;
 .event-btn:hover {
     background-color: #473d8a;
 }
+
+.next-party-section {
+
+    margin-top: 100px;
+}
+
+.next-party {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.next-party-text-left {}
+
+.next-party-text-left h4 {}
+
+.next-party-text-left h1 {
+
+
+    padding: 10px 0;
+}
+
+.next-party-text-left p {}
+
+.common-p {
+
+
+    color: rgb(98, 94, 94);
+}
+
+.next-party-img-middle {
+
+    width: 320px;
+    border: 15px solid #f00;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.next-party-img-middle img {
+
+    width: 280px;
+
+}
+
+.portfolio-header{
+    width: 50%;
+   
+}
+
+.portfolio-header h4{}
+.portfolio-header h1{
+
+    padding: 6px 0;
+}
+
+.protfolio-img{
+
+    display: flex;
+
+}
+
+.protfolio-img img{
+width: 320px;
+gap: 30px;
+
+
+
+}
+
+.portfolio-img-1{
+
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.port-img{
+
+    width: 400px;
+}
+.port-img img{
+
+   max-width: 100%;
+}
+
+.portfolio-img-2{
+
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+.portfolio-section{
+
+margin-top: 100px;
+
+}
