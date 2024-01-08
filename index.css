@@ -79,6 +79,13 @@ font-family: 'Merriweather', serif;
     font-weight: 300;
 }
 
+
+
+
+
+
+/* banner end */
+/* offer section */
 .offer-section {
 
 
@@ -571,7 +578,7 @@ footer {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding-top: 120px;
+    padding-top: 60px;
     color: white;
     line-height: 2em;
 }
@@ -579,7 +586,7 @@ footer {
 .footer-icon {
 
     text-align: center;
-    padding: 100px;
+
 
 
 
