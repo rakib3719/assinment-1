@@ -47,10 +47,12 @@ font-family: 'Merriweather', serif;
     background-repeat: no-repeat;
     background-position: center;
 
-    height: 90vh;
+height: 100%;
+padding: 200px 80px;
+   
 
 
-    border-radius: 10px 10px 10px 0;
+    border-radius: 10px 10px 10px 10px;
 display: flex;
 align-items: center;
 justify-content: center;
